@@ -1,0 +1,31 @@
+#board{
+    padding: 3rem;
+}
+#board h1{
+    text-align: center;
+}
+/* Rows CSS */ 
+.row {
+    clear: both;
+    width: 302px;
+    margin: 0 auto;
+}
+.row div{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+/* Tiles CSS */
+.top{
+    border-bottom: 1px solid #000
+}
+.right{
+    border-left: 1px solid #000;
+}
+.left{
+    border-right: 1px solid #000;
+}
+.bottom{
+    border-top: 1px solid #000;
+}
